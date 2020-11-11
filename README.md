@@ -16,5 +16,5 @@ The following guides illustrate how to use some features concretely:
 First run eureka-server project, then run this project
 Then try to get some urls like:
 
-http://localhost:8888/fx-user-app/default
+http://localhost:8888/dw2-svc/default
 http://localhost:8888/fx-course-app/default
