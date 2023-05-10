@@ -2,9 +2,7 @@ server:
   port: 8888
 spring:
   application:
-    name: fx-config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://bitbucket.org/gal16v8d/cloud-config/
+    name: gsdd-config-server
+  profiles:
+    active:
+    - native
