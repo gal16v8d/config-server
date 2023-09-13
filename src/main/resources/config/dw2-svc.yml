@@ -22,12 +22,12 @@ management:
     sampling:
       probability: 1.0
 
+server:
+  port: 8094
+
 service:
   welcome:
     message: Hello from cloud dw2-svc
-    
-server:
-  port: 8094
 
 spring:
   application:
