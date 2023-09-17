@@ -1,20 +1,34 @@
 # Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.5.RELEASE/maven-plugin/)
-
 ### Guides
 The following guides illustrate how to use some features concretely:
 
 * [Centralized Configuration](https://spring.io/guides/gs/centralized-configuration/)
 
+### Pre-requisites
+
+* Maven 3
+* Java 17
+
+### Docker Image
+
+- In the project dir, build using the command:
+
+```bash
+docker build -t gsdd-config-server .
+```
+
+- Run the docker image as:
+
+```bash
+docker run -d -p 8888:8888 gsdd-config-server
+
 ### Running
 
-First run eureka-server project, then run this project
-Then try to get some urls like:
+1. Run [eureka-server](https://github.com/gal16v8d/eureka-server) project
+2. Run this project
+3. Finally you can check it is working by check any url like:
 
 http://localhost:8888/dw2-svc/default
+
 http://localhost:8888/fx-course-app/default
