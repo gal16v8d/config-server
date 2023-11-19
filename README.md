@@ -8,7 +8,7 @@ The following guides illustrate how to use some features concretely:
 ### Pre-requisites
 
 * Maven 3
-* Java 17
+* Java 21
 
 ### Docker Image
 
