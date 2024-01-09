@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.5</version>
+		<version>3.2.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gsdd</groupId>
 	<artifactId>config-server</artifactId>
-	<version>2.1.0</version>
+	<version>2.1.1</version>
 	<name>config-server</name>
 	<description>Spring Boot demo project for config server</description>
 
@@ -30,7 +30,7 @@
 		<skip.integration.tests>false</skip.integration.tests>
 
 		<checkstyle.version>10.12.5</checkstyle.version>
-		<spring-cloud.version>2022.0.4</spring-cloud.version>
+		<spring-cloud.version>2023.0.0</spring-cloud.version>
 	</properties>
 
 	<dependencies>
