@@ -4,7 +4,10 @@ spring:
   application:
     name: config-server
   # read configs from repo
-  cloud.config.server.git.uri: https://github.com/gal16v8d/cloud-config
+  cloud:
+    compatibility-verifier:
+      enabled: false
+    config.server.git.uri: https://github.com/gal16v8d/cloud-config
   # enable the below to read configs from classpath/config
   # profiles.active:
   #  - native
